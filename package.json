@@ -1,0 +1,24 @@
+{
+  "name": "hawkhack-admin",
+  "version": "1.0.0",
+  "description": "admin dashboard for HawkHack.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd admin-client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawkhack/hawkhack-admin.git"
+  },
+  "author": "cristian novac, aadil glasswala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hawkhack/hawkhack-admin/issues"
+  },
+  "homepage": "https://github.com/hawkhack/hawkhack-admin#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
